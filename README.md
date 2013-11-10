@@ -34,6 +34,7 @@ Add for Photography:
 Add for Web Design:
 * PhpStorm (free academic license)
 * XCode command line tools (primarily for Git) xcode-select --install
+* Bash extensions for Git
 
 Configuration:
 * Configure network.
