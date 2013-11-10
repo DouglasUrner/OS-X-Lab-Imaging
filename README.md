@@ -20,19 +20,24 @@ Creating the Master System
 
 Mac OS X (10.9)
 
-Remove:
-* Games
+Remove (or move to a restricted folder):
+* Games (Chess, Game Center)
+* Photo Booth
+* iTunes
+* FaceTime (and Messages?)
 
 Add for Photography:
 * Adobe Lightroom
-* Adobe CS6 (also for web design)
+* Adobe CS6 (less Flash tools and Fireworks, also for web design)
 * EXIFTool
 
 Add for Web Design:
 * PhpStorm (free academic license)
-* XCode command line tools (primarily for Git)
+* XCode command line tools (primarily for Git) xcode-select --install
 
 Configuration:
 * Configure network.
-* In System Preferences > Sharing enable remote management (Apple Remote Desktop) with all options and remote login.
-* 
+* System Preferences > Sharing enable remote management (Apple Remote Desktop) with all options and remote login. Configure allowed users.
+* System Preferences > Date & Time
+* Launch and add license keys to applications
+* Update system and applications
