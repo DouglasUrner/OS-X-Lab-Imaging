@@ -15,5 +15,24 @@ Prerequisites
   * Additional partition(s) sized to hold the master system(s).
   * The remaining disk space allocated to hold the system images. You will need enough space to hold your images plus twice the size of an image for building images.
 
-Creating an Image
+Creating the Master System
 -----------------
+
+Mac OS X (10.9)
+
+Remove:
+* Games
+
+Add for Photography:
+* Adobe Lightroom
+* Adobe CS6 (also for web design)
+* EXIFTool
+
+Add for Web Design:
+* PhpStorm (free academic license)
+* XCode command line tools (primarily for Git)
+
+Configuration:
+* Configure network.
+* In System Preferences > Sharing enable remote management (Apple Remote Desktop) with all options and remote login.
+* 
