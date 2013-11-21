@@ -1,5 +1,6 @@
 OS-X-Lab-Imaging
 ================
+**Note: This readme is old. See ServerConfigurationNotes.md.**
 
 Instructions for creating an OS X master image and imaging a school computer lab using DeployStudio.
 
