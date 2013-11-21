@@ -11,7 +11,7 @@ Steps
 Fresh install of OS – boot from flash drive, format boot partition and install. Currently using about 70 GB for the boot partition.
 
 Basic OS X Configuration:
-_________________________
+-------------------------
 * Defaults for keyboard, language, etc.
 * Skip Apple ID (unless you have one you want to use for the machine)
 * Skip registration (optional, this machines been registered more times than it can count…)
@@ -21,7 +21,7 @@ _________________________
 * Enable (or not) automatic updates as you see fit
 
 Network Configuration
-_____________________
+---------------------
 * Configure the network interface that will be used for the server with a fixed IP address. However you need to do that. Make sure you have a workable netmask and – if at all possible – a working DNS server that will do forward and reverse resolution.
 
 * If you can't get this set up right at this point you might consider editing /etc/hosts and configuring it there. Have not tested this idea.
@@ -35,13 +35,13 @@ Get this right before you proceed any further. If DNS is not working correctly (
 If you have multiple network interfaces it appears that OS X or the server tools will prefer an interface that can reach the Internet over the first one in the service order. If that is not the interface that will be providing the server's services you are likely to see changeip fail.
 
 Before Launching Server:
-________________________
+------------------------
 * Set host name, "sudo scutil --set HostName foo.bar.baz". This is the FQDN of the machine. It must be at least three parts. It must not end in .local (that causes mDNS to serve the name and it supposedly leads to problems). The name can be made up, I use a name ending in .pri just because the rest of the district uses that internally (Microsoft shop).
 * Set the local host name, "sudo scutil --set LocalHostName foo". Not sure what this is used for. I used the host name portion of the "HostName" (previous step).
 * Set the computer name "sudo scutil --set ComputerName 'Foo'". Set this to a "pretty" version of the LocalHostName, with a space. I think this is the Bonjour name, some people set this to the same value as the "HostName". Not sure if that is necessary or provides any benefit.
 
 Launch Server.app:
-__________________
+------------------
 * Confirm that the host name and IP address(es) are what you expect. Fix it if necessary.
 * On the Settings tab of the machine page, enable all of the options for remote management and push notifcations. Push notifications will require an Apple ID, create one if necessary. This requires an Internet connection.
 * If necessary, configure the Mac OS X DNS server (and clean up anything necessary).
@@ -60,4 +60,4 @@ It is essential that the client be configured to use DNS that correctly resolves
 Bind the client to Open Directory on the server.
 
 Enroll the client to be managed by the server:
-______________________________________________
+----------------------------------------------
