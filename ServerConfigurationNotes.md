@@ -61,3 +61,15 @@ Bind the client to Open Directory on the server.
 
 Enroll the client to be managed by the server:
 ----------------------------------------------
+@todo
+
+Set up device group
+-------------------
+@todo
+
+Set up OD
+---------
+1. Edit the profile for your device group.
+2. Choose Directory on the left.
+3. Fill it out.
+4. Save (2 levels).
